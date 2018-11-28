@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "intFloatDouble", "intFloatDouble.csproj", "{DA3D10D2-4A51-493A-8CB0-21EEF4D8472E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntFloatDouble", "IntFloatDouble.csproj", "{DA3D10D2-4A51-493A-8CB0-21EEF4D8472E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. int float double", "1. int float double", "{F2DF86C1-ADB1-4C0D-8D89-9971FC214E67}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Strings", "2. Strings", "{8EF2A2DD-FAF6-4B65-9758-1320AF7C1E9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "strings", "..\strings\strings.csproj", "{75BDCCA4-8D30-4663-8FDF-77FEC3F655C4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "..\strings\Strings.csproj", "{75BDCCA4-8D30-4663-8FDF-77FEC3F655C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Implict and Explict conversions", "3. Implict and Explict conversions", "{4FDD0C88-CC0D-411C-A304-C243ACC9496A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conversions", "Conversions\Conversions.csproj", "{D00B0719-A9D0-47F2-A49E-57C7008A37DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,10 @@ Global
 		{75BDCCA4-8D30-4663-8FDF-77FEC3F655C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75BDCCA4-8D30-4663-8FDF-77FEC3F655C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75BDCCA4-8D30-4663-8FDF-77FEC3F655C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D00B0719-A9D0-47F2-A49E-57C7008A37DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D00B0719-A9D0-47F2-A49E-57C7008A37DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D00B0719-A9D0-47F2-A49E-57C7008A37DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D00B0719-A9D0-47F2-A49E-57C7008A37DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{DA3D10D2-4A51-493A-8CB0-21EEF4D8472E} = {F2DF86C1-ADB1-4C0D-8D89-9971FC214E67}
 		{75BDCCA4-8D30-4663-8FDF-77FEC3F655C4} = {8EF2A2DD-FAF6-4B65-9758-1320AF7C1E9B}
+		{D00B0719-A9D0-47F2-A49E-57C7008A37DB} = {4FDD0C88-CC0D-411C-A304-C243ACC9496A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A7E92FEC-82E2-48E9-9016-038A3E2E8978}
