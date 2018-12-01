@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1.csproj", "{28096B7C-C6B5-47DF-B488-643C82537605}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Void", "1. Void", "{8424B38A-7864-421C-A444-AEDD42A57B7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoidMethods", "..\Methods\VoidMethods.csproj", "{6A0B9A3B-742C-4F63-97EC-DE28B82CF507}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{28096B7C-C6B5-47DF-B488-643C82537605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{28096B7C-C6B5-47DF-B488-643C82537605}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{28096B7C-C6B5-47DF-B488-643C82537605}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{28096B7C-C6B5-47DF-B488-643C82537605}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A0B9A3B-742C-4F63-97EC-DE28B82CF507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A0B9A3B-742C-4F63-97EC-DE28B82CF507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A0B9A3B-742C-4F63-97EC-DE28B82CF507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A0B9A3B-742C-4F63-97EC-DE28B82CF507}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6A0B9A3B-742C-4F63-97EC-DE28B82CF507} = {8424B38A-7864-421C-A444-AEDD42A57B7D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3933ABD1-9EF8-4178-8936-EB0BFD04E294}
