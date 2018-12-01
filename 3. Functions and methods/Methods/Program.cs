@@ -12,7 +12,7 @@ namespace VoidMethods
         {
             WriteSomething();
             WriteSomethingSPecific("I am an argument and am called from the method");
-            
+            Console.Read();
         }
 
         // access modifier (static) return type method name (parameter1, parameter2)
