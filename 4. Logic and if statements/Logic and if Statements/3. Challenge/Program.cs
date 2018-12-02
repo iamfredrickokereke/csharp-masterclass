@@ -40,7 +40,7 @@ namespace _3.Challenge
                 }
                 else
                 {
-                    Console.WriteLine("Login failed, wrond password.r Restart program");
+                    Console.WriteLine("Login failed, wrong password. Restart program");
                 }
             }
             else

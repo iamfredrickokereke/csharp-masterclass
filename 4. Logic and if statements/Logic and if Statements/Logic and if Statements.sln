@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Nested If Statements", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Challenge", "3. Challenge\3. Challenge.csproj", "{A1CF527A-5540-40D5-8D53-ADA2304846E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Switch", "4. Switch\4. Switch.csproj", "{CD1323ED-BC59-4B01-98D5-E92FC29DD302}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Chalenge2", "5. Chalenge2\5. Chalenge2.csproj", "{AC8C89ED-736D-4C6C-9B54-8FDA6F43C5CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{A1CF527A-5540-40D5-8D53-ADA2304846E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1CF527A-5540-40D5-8D53-ADA2304846E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1CF527A-5540-40D5-8D53-ADA2304846E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD1323ED-BC59-4B01-98D5-E92FC29DD302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD1323ED-BC59-4B01-98D5-E92FC29DD302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD1323ED-BC59-4B01-98D5-E92FC29DD302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD1323ED-BC59-4B01-98D5-E92FC29DD302}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC8C89ED-736D-4C6C-9B54-8FDA6F43C5CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC8C89ED-736D-4C6C-9B54-8FDA6F43C5CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC8C89ED-736D-4C6C-9B54-8FDA6F43C5CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC8C89ED-736D-4C6C-9B54-8FDA6F43C5CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
