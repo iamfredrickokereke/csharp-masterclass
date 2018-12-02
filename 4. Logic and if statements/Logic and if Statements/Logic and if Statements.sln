@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Switch", "4. Switch\4. S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Chalenge2", "5. Chalenge2\5. Chalenge2.csproj", "{AC8C89ED-736D-4C6C-9B54-8FDA6F43C5CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Enchanced if statements", "6. Enchanced if statements\6. Enchanced if statements.csproj", "{9CB66761-E4AB-4A57-B549-2240FF1DCEC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{AC8C89ED-736D-4C6C-9B54-8FDA6F43C5CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC8C89ED-736D-4C6C-9B54-8FDA6F43C5CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC8C89ED-736D-4C6C-9B54-8FDA6F43C5CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CB66761-E4AB-4A57-B549-2240FF1DCEC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CB66761-E4AB-4A57-B549-2240FF1DCEC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CB66761-E4AB-4A57-B549-2240FF1DCEC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CB66761-E4AB-4A57-B549-2240FF1DCEC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

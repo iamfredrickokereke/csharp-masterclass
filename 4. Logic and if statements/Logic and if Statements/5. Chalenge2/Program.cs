@@ -32,7 +32,7 @@ namespace _5.Chalenge2
             }
             else
             {
-                Console.WriteLine("The old highscore cound not be broken. It is still " + highscore + "and held by " + highscorePlayer);
+                Console.WriteLine("The old highscore cound not be broken. It is still " + highscore + " and held by " + highscorePlayer);
             }
         }
     }
