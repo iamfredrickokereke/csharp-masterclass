@@ -11,22 +11,36 @@ namespace _1.introduction
         static void Main(string[] args)
         {
             Console.WriteLine("Enter the temperature");
-            string temp = Console.ReadLine(); 
-            int temperature = int.Parse(temp);
+            string temp = Console.ReadLine();
+            int temperature;
+            int number;
+            bool userEnteredANumber = int.TryParse(temp, out number);
 
-            if (temperature < 10)
+            if (userEnteredANumber)
+            {
+                temperature = number;
+            }
+            else
+            {
+                temperature = 0;
+                Console.WriteLine("value entered, was no number. 0 is set as temperature");
+            }
+
+            if (temperature < 20)
             {
                 Console.WriteLine("Take the coat");
             }
-
-            if (temperature == 10)
+            else if (temperature == 20)
             {
-                Console.WriteLine("It's 10 degree C");
+                Console.WriteLine("Pants and pullover should be fine");
             }
-
-            if (temperature > 10)
+            else if (temperature > 30)
             {
-                Console.WriteLine("Cozy warm!");
+                Console.WriteLine("It is super hot");
+            }
+            else 
+            {
+                Console.WriteLine("Shorts are enough for today");
             }
 
             Console.Read();

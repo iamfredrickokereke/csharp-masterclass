@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. introduction", "..\1. introduction\1. introduction.csproj", "{AE2D1ABA-AE3B-4A16-8677-A8BFD0847805}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Nested If Statements", "2. Nested If Statements\2. Nested If Statements.csproj", "{67468A2C-9C3F-4A4D-85A2-C7D435A2F4F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{AE2D1ABA-AE3B-4A16-8677-A8BFD0847805}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE2D1ABA-AE3B-4A16-8677-A8BFD0847805}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE2D1ABA-AE3B-4A16-8677-A8BFD0847805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67468A2C-9C3F-4A4D-85A2-C7D435A2F4F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67468A2C-9C3F-4A4D-85A2-C7D435A2F4F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67468A2C-9C3F-4A4D-85A2-C7D435A2F4F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67468A2C-9C3F-4A4D-85A2-C7D435A2F4F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
