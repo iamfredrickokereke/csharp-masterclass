@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _5
+namespace _6
 {
     class Program
     {
@@ -14,11 +14,14 @@ namespace _5
             int pradzia = int.Parse(Console.ReadLine());
             int pabaiga = int.Parse(Console.ReadLine());
 
-            if(pradzia < pabaiga)
+            if (pradzia < pabaiga)
             {
                 for (int i = pradzia; i <= pabaiga; i++)
                 {
-                    Console.WriteLine("{0} - {1}", i, i*i);
+                    if (i % 2 != 0 || i % 8 == 0)
+                    {
+                        Console.WriteLine(i);
+                    }
                 }
             }
             else
