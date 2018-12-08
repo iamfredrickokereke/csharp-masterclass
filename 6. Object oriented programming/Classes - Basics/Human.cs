@@ -15,6 +15,7 @@ namespace Classes___Basics
         private string eyeColor;
         private int age;
 
+        // constructor
         public Human(string firstName, string lastName, string eyeColor, int age)
         {
             this.firstName = firstName;
@@ -23,14 +24,17 @@ namespace Classes___Basics
             this.age = age;
         }
 
-
-        // constructor
-
-
         // member
         public void IntroduceMyself()
         {
-            Console.WriteLine("Hi, I am {0} {1}, and I am {2} years old. My eyes are {3}.", firstName, lastName, age, eyeColor);
+            if (age == 1)
+            {
+                Console.WriteLine("Hi, I am {0} {1}, and I am {2} year old. My eyes are {3}.", firstName, lastName, age, eyeColor);
+            }
+            else
+            {
+                Console.WriteLine("Hi, I am {0} {1}, and I am {2} years old. My eyes are {3}.", firstName, lastName, age, eyeColor);
+            }
         }
     }
 }
