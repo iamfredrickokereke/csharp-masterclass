@@ -10,15 +10,10 @@ namespace Classes___Basics
     {
         static void Main(string[] args)
         {
-            Human sissy = new Human();
-            sissy.firstName = "Sissy";
-            sissy.lastName = "Wagner";
+            Human sissy = new Human("Sissy", "Wagner", "blue", 34);
+            Human mantas = new Human("Mantas", "Masalis", "brown", 28);
             sissy.IntroduceMyself();
-
-            Human franzl = new Human();
-            franzl.firstName = "Franzl";
-            franzl.lastName = "Muller";
-            franzl.IntroduceMyself();
+            mantas.IntroduceMyself();
 
             Console.Read();
         }
