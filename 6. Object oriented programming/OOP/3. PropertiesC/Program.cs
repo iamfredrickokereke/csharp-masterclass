@@ -11,9 +11,10 @@ namespace _3.PropertiesC
         static void Main(string[] args)
         {
             Box box = new Box(5, 4, 10);
- 
-            Console.WriteLine("volume is {0}", box.Volume);
+            Console.WriteLine("Volume is {0}", box.Volume);
 
+
+            Console.WriteLine("Front surface of the box is {0}", box.FrontSurface );
             box.DisplayInfo();
             
             Console.Read();

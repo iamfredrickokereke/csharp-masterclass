@@ -5,10 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace _3.PropertiesC
+
+    // Challenge: create a read only property "FrontService" which calculates the front surface based on heigh and length
 {
     class Box
     {
         //member variable
+        private string color = "white";
         private int length;
         private int height;
         //private int width;
@@ -55,6 +58,7 @@ namespace _3.PropertiesC
             */
         }
 
+        /*
         public int Length
         {
             get
@@ -66,6 +70,16 @@ namespace _3.PropertiesC
                 length = value;
             }
         }
+        */
+
+        public int Length
+        {
+            get => length;
+            set => length = value;
+        }
+
+
+        
 
         /*
         // set
@@ -80,6 +94,17 @@ namespace _3.PropertiesC
             return this.length;
         }
         */
+
+
+        public int FrontSurface
+        {
+            get
+            {
+                return height * length;
+            }
+        }
+
+       
         public void DisplayInfo()
         {
             Console.WriteLine("Lenght is {0} and height is {1} and width is {2}, so the volume is {3}", length, height, Width, length * height * Width);
