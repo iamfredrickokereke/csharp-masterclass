@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Multiple Constructors", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. PropertiesC", "3. PropertiesC\3. PropertiesC.csproj", "{9DF51380-2848-4D84-93AF-4AFBCECBA46C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Members and finalizers", "4. Members and finalizers\4. Members and finalizers.csproj", "{4C3206E0-8D25-4BC5-9252-EDD06C8CA1F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9DF51380-2848-4D84-93AF-4AFBCECBA46C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DF51380-2848-4D84-93AF-4AFBCECBA46C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DF51380-2848-4D84-93AF-4AFBCECBA46C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C3206E0-8D25-4BC5-9252-EDD06C8CA1F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C3206E0-8D25-4BC5-9252-EDD06C8CA1F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C3206E0-8D25-4BC5-9252-EDD06C8CA1F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C3206E0-8D25-4BC5-9252-EDD06C8CA1F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
