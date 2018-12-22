@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Declaring and initializing arrays", "..\1. Declaring and initializing arrays\1. Declaring and initializing arrays.csproj", "{3F52A404-77CC-43AB-B42E-A207C6A0C19E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. ForEach", "ForEach\2. ForEach.csproj", "{B677D955-98AB-4234-A50D-8002392DAAA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3F52A404-77CC-43AB-B42E-A207C6A0C19E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F52A404-77CC-43AB-B42E-A207C6A0C19E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F52A404-77CC-43AB-B42E-A207C6A0C19E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B677D955-98AB-4234-A50D-8002392DAAA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B677D955-98AB-4234-A50D-8002392DAAA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B677D955-98AB-4234-A50D-8002392DAAA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B677D955-98AB-4234-A50D-8002392DAAA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
