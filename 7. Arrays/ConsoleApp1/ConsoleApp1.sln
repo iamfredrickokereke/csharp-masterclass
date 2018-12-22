@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Declaring and initializing arrays", "..\1. Declaring and initializing arrays\1. Declaring and initializing arrays.csproj", "{3F52A404-77CC-43AB-B42E-A207C6A0C19E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F52A404-77CC-43AB-B42E-A207C6A0C19E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F52A404-77CC-43AB-B42E-A207C6A0C19E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F52A404-77CC-43AB-B42E-A207C6A0C19E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F52A404-77CC-43AB-B42E-A207C6A0C19E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB3BCD11-79B9-4644-92A4-9F10AB25A878}
+	EndGlobalSection
+EndGlobal
