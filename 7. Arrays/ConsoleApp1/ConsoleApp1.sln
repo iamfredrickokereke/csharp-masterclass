@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tic Tac Toe Game", "Tic Tac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Jagged Array", "4. Jagged Array\4. Jagged Array.csproj", "{99C76152-3216-4D68-A25D-A6DB6E1D7F41}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JaggedArrays Challenge", "JaggedArrays Challenge\JaggedArrays Challenge.csproj", "{B64B6BF4-6093-4DDD-8341-A843BDC44593}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{99C76152-3216-4D68-A25D-A6DB6E1D7F41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99C76152-3216-4D68-A25D-A6DB6E1D7F41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99C76152-3216-4D68-A25D-A6DB6E1D7F41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B64B6BF4-6093-4DDD-8341-A843BDC44593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B64B6BF4-6093-4DDD-8341-A843BDC44593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B64B6BF4-6093-4DDD-8341-A843BDC44593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B64B6BF4-6093-4DDD-8341-A843BDC44593}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
