@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. ForEach", "ForEach\2. Fo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Multi dimensiona arrays", "3. Multi dimensiona arrays\3. Multi dimensiona arrays.csproj", "{526F559A-EDEC-40AC-AE93-911672198570}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tic Tac Toe Game", "Tic Tac Toe Game\Tic Tac Toe Game.csproj", "{F877486C-05D7-4EBE-A8B3-C0EDE316CBA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{526F559A-EDEC-40AC-AE93-911672198570}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{526F559A-EDEC-40AC-AE93-911672198570}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{526F559A-EDEC-40AC-AE93-911672198570}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F877486C-05D7-4EBE-A8B3-C0EDE316CBA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F877486C-05D7-4EBE-A8B3-C0EDE316CBA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F877486C-05D7-4EBE-A8B3-C0EDE316CBA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F877486C-05D7-4EBE-A8B3-C0EDE316CBA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

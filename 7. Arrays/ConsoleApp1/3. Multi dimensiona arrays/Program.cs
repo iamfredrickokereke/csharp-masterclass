@@ -42,10 +42,10 @@ namespace _3.Multi_dimensiona_arrays
                 }
             };
 
-            string[,] array2DString = new string[3, 2] 
-            { 
-                { "one", "two", }, 
-                { "three", "four" }, 
+            string[,] array2DString = new string[3, 2]
+            {
+                { "one", "two", },
+                { "three", "four" },
                 { "five", "six" }
             };
 
@@ -53,12 +53,14 @@ namespace _3.Multi_dimensiona_arrays
 
             int dimensions = array2DString.Rank;
 
+            int[,] array2D2 = { { 1, 2 }, { 1, 2 } };
+
             Console.WriteLine("The value is {0}", array3D[1, 2, 1]);
             Console.WriteLine("The value is {0}", array2DString[1, 1]);
             Console.WriteLine("Dimensions {0}", dimensions);
 
 
-            
+
             Console.Read();
 
 
