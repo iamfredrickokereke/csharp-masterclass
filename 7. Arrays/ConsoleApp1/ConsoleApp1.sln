@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Jagged Array", "4. Jagge
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JaggedArrays Challenge", "JaggedArrays Challenge\JaggedArrays Challenge.csproj", "{B64B6BF4-6093-4DDD-8341-A843BDC44593}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.Using Arrays as Parameters", "Using Arrays as Parameters\5.Using Arrays as Parameters.csproj", "{E67323AF-D030-424C-BC49-789A2DA54F8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. ArrayLists", "6. ArrayLists\6. ArrayLists.csproj", "{6CDBC3A7-63B0-492F-80D9-217F4836F6E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{B64B6BF4-6093-4DDD-8341-A843BDC44593}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B64B6BF4-6093-4DDD-8341-A843BDC44593}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B64B6BF4-6093-4DDD-8341-A843BDC44593}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E67323AF-D030-424C-BC49-789A2DA54F8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E67323AF-D030-424C-BC49-789A2DA54F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E67323AF-D030-424C-BC49-789A2DA54F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E67323AF-D030-424C-BC49-789A2DA54F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CDBC3A7-63B0-492F-80D9-217F4836F6E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CDBC3A7-63B0-492F-80D9-217F4836F6E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CDBC3A7-63B0-492F-80D9-217F4836F6E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CDBC3A7-63B0-492F-80D9-217F4836F6E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

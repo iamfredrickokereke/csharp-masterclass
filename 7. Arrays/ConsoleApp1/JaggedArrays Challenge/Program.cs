@@ -13,6 +13,8 @@ namespace JaggedArrays_Challenge
             //Create a Jagged array, which contains 3 "friends arrays", in which two family members should be storred
             //Introduce family members form different families to each other via console
 
+            string[] joesFamily = new string[] { "Martha", "Robert" };
+
             string[][] friendsAndFamily = new string[][]
             {
                 new string[]{"Michael", "Sandy"},
