@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _1.PolymorphysmC
 {
-    class BMW : Car
+    sealed class BMW : Car
     {
         private string brand = "BMW";
 
@@ -22,7 +22,7 @@ namespace _1.PolymorphysmC
             Console.WriteLine("Brand: " + brand + " HP: " + HP + " color: " + Color);
         }
 
-        public override void Repair()
+        public sealed override void Repair()
         {
             Console.WriteLine("The BMW {0} was repaired", Model);
         }

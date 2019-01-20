@@ -34,6 +34,9 @@ namespace _1.PolymorphysmC
             Car carB = (Car)bmwM5;
             carB.ShowDetails();
 
+            M3 myM3 = new M3(260, "red", "M3 Super Turbo");
+            myM3.Repair();
+
             Console.ReadKey();
         }
     }

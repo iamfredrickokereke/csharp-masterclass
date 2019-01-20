@@ -18,6 +18,12 @@ namespace _1.PolymorphysmC
             this.Color = color;
         }
 
+        //default construtor
+        public Car()
+        {
+
+        }
+
         public void ShowDetails()
         {
             Console.WriteLine("HP: " + HP + " color: " + Color);
