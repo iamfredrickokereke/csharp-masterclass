@@ -36,7 +36,6 @@ namespace _2.Arrayslists_vs_Lists_vs_Arrays
             list.ForEach(i => Console.WriteLine(i));
 
             //ArrayList
-
             ArrayList arrayList = new ArrayList();
             arrayList.Add(1);
             arrayList.Add("two");
@@ -48,8 +47,6 @@ namespace _2.Arrayslists_vs_Lists_vs_Arrays
             {
                 Console.WriteLine(o);
             }
-
-
 
             Console.ReadLine();
         }
