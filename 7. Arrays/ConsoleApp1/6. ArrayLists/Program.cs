@@ -22,6 +22,7 @@ namespace _6.ArrayLists
             myArrayList.Add(13);
             myArrayList.Add(128);
             myArrayList.Add(25.3);
+            myArrayList.Add(13);
 
             //delete element with a specific value from the ArrayList
             myArrayList.Remove(13);
