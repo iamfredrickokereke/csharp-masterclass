@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.Enums", "4.Enums\4.Enums.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. MathE", "5. Math\5. MathE.csproj", "{207F9A09-51A6-44BD-AE09-A192A2F13005}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. RandomT", "6. Random\6. RandomT.csproj", "{4DBD5542-E7C4-4D21-9D8E-A2506C97AED3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regular Expressions", "Regular Expressions\Regular Expressions.csproj", "{DF048366-4790-4193-82A2-F8FA746C9628}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{207F9A09-51A6-44BD-AE09-A192A2F13005}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{207F9A09-51A6-44BD-AE09-A192A2F13005}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{207F9A09-51A6-44BD-AE09-A192A2F13005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DBD5542-E7C4-4D21-9D8E-A2506C97AED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DBD5542-E7C4-4D21-9D8E-A2506C97AED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DBD5542-E7C4-4D21-9D8E-A2506C97AED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DBD5542-E7C4-4D21-9D8E-A2506C97AED3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF048366-4790-4193-82A2-F8FA746C9628}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF048366-4790-4193-82A2-F8FA746C9628}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF048366-4790-4193-82A2-F8FA746C9628}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF048366-4790-4193-82A2-F8FA746C9628}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
