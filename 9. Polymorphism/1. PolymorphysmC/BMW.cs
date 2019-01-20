@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace _1.PolymorphysmC
 {
-    sealed class BMW : Car
+    // BMW is a Car
+    class BMW : Car
     {
         private string brand = "BMW";
 
