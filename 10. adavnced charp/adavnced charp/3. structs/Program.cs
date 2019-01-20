@@ -6,13 +6,22 @@ using System.Threading.Tasks;
 
 namespace _3.structs
 {
-
+    //Struct cant have construtors
+    //do not support inheritance
     struct Game
     {
         public string name;
         public string developer;
         public double rating;
         public string releaseDate;
+
+        public Game(string name, string developer, double rating, string releaseDate)
+        {
+            this.name = name;
+            this.developer = developer;
+            this.rating = rating;
+            this.releaseDate = releaseDate;
+        }
 
         public void Display()
         {
@@ -28,7 +37,6 @@ namespace _3.structs
         static void Main(string[] args)
         {
             Game game1;
-
             game1.name = "Pokemon Go";
             game1.developer = "Niantic";
             game1.rating = 3.5;
