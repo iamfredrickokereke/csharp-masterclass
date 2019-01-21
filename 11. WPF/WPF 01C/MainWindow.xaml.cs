@@ -22,6 +22,7 @@ namespace WPF_01C
     {
         public MainWindow()
         {
+            /*
             InitializeComponent();
             Grid grid = new Grid();
             this.Content = grid;
@@ -51,6 +52,32 @@ namespace WPF_01C
 
             btn.Content = wrapPanel;
             grid.Children.Add(btn);
+            */
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Button was clicked - Direct Event");
+        }
+
+        private void Button_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+            MessageBox.Show("Mouse button went up / was realesed - Bubbling");
+        }
+
+        private void Button_PreviewMouseUp(object sender, MouseButtonEventArgs e)
+        {
+            MessageBox.Show("Mouse button went up / was realesed - tunneling event");
+        }
+
+        private void Button_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            MessageBox.Show("Left Mouse button went down - tunneling event");
+        }
+
+        private void Button_PreviewMouseRightButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            MessageBox.Show("RighrMouse button went up - tunneling event");
         }
     }
 }

@@ -5,25 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_01C"
         mc:Ignorable="d"
-        Title="My first GUI" Height="450" Width="800">
+        Title="My first GUI" Height="350" Width="525">
     <!-- Xaml -> Extensible Aplication Markup Language -->
-    <!--
     <Grid>
-       
-        <Button>
-            <Button.Width>200</Button.Width>
-            <Button.Height>100</Button.Height>
-            <Button.FontSize>24</Button.FontSize>
-            <Button.Content>
-                <WrapPanel>
-                    <TextBlock Foreground="Blue">Multi</TextBlock>
-                    <TextBlock Foreground="Red">Multi</TextBlock>
-                    <TextBlock Foreground="White">Multi</TextBlock>
-                </WrapPanel>
-            </Button.Content>
-        </Button>
-
+        <Button Content="Click Me" PreviewMouseLeftButtonDown="Button_PreviewMouseLeftButtonDown" PreviewMouseRightButtonUp="Button_PreviewMouseRightButtonUp" Width="150" Height="100"/>
     </Grid>
-    -->
 
 </Window>
