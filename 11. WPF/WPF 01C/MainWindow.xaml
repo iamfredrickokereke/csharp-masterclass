@@ -7,8 +7,12 @@
         mc:Ignorable="d"
         Title="My first GUI" Height="350" Width="525">
     <!-- Xaml -> Extensible Aplication Markup Language -->
-    <Grid>
-        <Button Content="Click Me" PreviewMouseLeftButtonDown="Button_PreviewMouseLeftButtonDown" PreviewMouseRightButtonUp="Button_PreviewMouseRightButtonUp" Width="150" Height="100"/>
-    </Grid>
+
+    
+    <StackPanel>
+        <TextBox Name="MyTextBox" Width="100" Margin="50" Text="{Binding ElementName=MySlider, Path=Background, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        <!-- Slider binding mode -->
+        <Slider IsSnapToTickEnabled="True" Name="MySlider" Background="Aqua" Minimum="0" Maximum="100"></Slider>
+    </StackPanel>
 
 </Window>

@@ -20,8 +20,27 @@ namespace WPF_01C
     /// </summary>
     public partial class MainWindow : Window
     {
+        /*
+        public int MyProperty
+        {
+            get
+            {
+                return (int)GetValue(myDependencyProperty);
+            }
+            set
+            {
+                SetValue(myDependencyProperty, value);
+            }
+        }
+
+        public static readonly DependencyProperty myDependencyProperty = DependencyProperty.Register("My Property", typeof(int), typeof(MainWindow), new PropertyMetadata(0));
+        */
         public MainWindow()
         {
+            InitializeComponent();
+            MySlider.Value = 30;
+            MyTextBox.Text = MySlider.Value.ToString();
+
             /*
             InitializeComponent();
             Grid grid = new Grid();
@@ -55,6 +74,7 @@ namespace WPF_01C
             */
         }
 
+        /*
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Button was clicked - Direct Event");
@@ -79,5 +99,6 @@ namespace WPF_01C
         {
             MessageBox.Show("RighrMouse button went up - tunneling event");
         }
+        */
     }
 }
