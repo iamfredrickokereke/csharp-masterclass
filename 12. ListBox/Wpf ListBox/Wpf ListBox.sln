@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComboBox", "..\ComboBox\Com
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckBox", "CheckBox\CheckBox.csproj", "{089E6027-5171-47B9-8CF3-421974DA15E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tooltips", "Tooltips\Tooltips.csproj", "{60505BC0-7889-4EA4-931E-2DEA36611CB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{089E6027-5171-47B9-8CF3-421974DA15E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{089E6027-5171-47B9-8CF3-421974DA15E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{089E6027-5171-47B9-8CF3-421974DA15E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60505BC0-7889-4EA4-931E-2DEA36611CB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60505BC0-7889-4EA4-931E-2DEA36611CB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60505BC0-7889-4EA4-931E-2DEA36611CB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60505BC0-7889-4EA4-931E-2DEA36611CB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
