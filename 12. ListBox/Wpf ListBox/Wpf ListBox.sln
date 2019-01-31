@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf ListBox", "Wpf ListBox.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComboBox", "..\ComboBox\ComboBox.csproj", "{72427350-26BD-4368-9398-7926EC2A5799}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckBox", "CheckBox\CheckBox.csproj", "{089E6027-5171-47B9-8CF3-421974DA15E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{72427350-26BD-4368-9398-7926EC2A5799}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72427350-26BD-4368-9398-7926EC2A5799}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72427350-26BD-4368-9398-7926EC2A5799}.Release|Any CPU.Build.0 = Release|Any CPU
+		{089E6027-5171-47B9-8CF3-421974DA15E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{089E6027-5171-47B9-8CF3-421974DA15E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{089E6027-5171-47B9-8CF3-421974DA15E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{089E6027-5171-47B9-8CF3-421974DA15E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
