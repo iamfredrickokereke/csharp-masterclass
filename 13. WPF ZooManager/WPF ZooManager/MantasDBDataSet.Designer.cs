@@ -10,7 +10,7 @@
 
 #pragma warning disable 1591
 
-namespace Wpf_ZooManager {
+namespace WPF_ZooManager {
     
     
     /// <summary>
@@ -20,9 +20,9 @@ namespace Wpf_ZooManager {
     [global::System.ComponentModel.DesignerCategoryAttribute("code")]
     [global::System.ComponentModel.ToolboxItem(true)]
     [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedDataSetSchema")]
-    [global::System.Xml.Serialization.XmlRootAttribute("PanjutorialsDBDataSet")]
+    [global::System.Xml.Serialization.XmlRootAttribute("MantasDBDataSet")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.DataSet")]
-    public partial class PanjutorialsDBDataSet : global::System.Data.DataSet {
+    public partial class MantasDBDataSet : global::System.Data.DataSet {
         
         private ZooDataTable tableZoo;
         
@@ -34,7 +34,7 @@ namespace Wpf_ZooManager {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-        public PanjutorialsDBDataSet() {
+        public MantasDBDataSet() {
             this.BeginInit();
             this.InitClass();
             global::System.ComponentModel.CollectionChangeEventHandler schemaChangedHandler = new global::System.ComponentModel.CollectionChangeEventHandler(this.SchemaChanged);
@@ -45,7 +45,7 @@ namespace Wpf_ZooManager {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-        protected PanjutorialsDBDataSet(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+        protected MantasDBDataSet(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
                 base(info, context, false) {
             if ((this.IsBinarySerialized(info, context) == true)) {
                 this.InitVars(false);
@@ -157,7 +157,7 @@ namespace Wpf_ZooManager {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         public override global::System.Data.DataSet Clone() {
-            PanjutorialsDBDataSet cln = ((PanjutorialsDBDataSet)(base.Clone()));
+            MantasDBDataSet cln = ((MantasDBDataSet)(base.Clone()));
             cln.InitVars();
             cln.SchemaSerializationMode = this.SchemaSerializationMode;
             return cln;
@@ -247,9 +247,9 @@ namespace Wpf_ZooManager {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitClass() {
-            this.DataSetName = "PanjutorialsDBDataSet";
+            this.DataSetName = "MantasDBDataSet";
             this.Prefix = "";
-            this.Namespace = "http://tempuri.org/PanjutorialsDBDataSet.xsd";
+            this.Namespace = "http://tempuri.org/MantasDBDataSet.xsd";
             this.EnforceConstraints = true;
             this.SchemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
             this.tableZoo = new ZooDataTable();
@@ -289,7 +289,7 @@ namespace Wpf_ZooManager {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedDataSetSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
-            PanjutorialsDBDataSet ds = new PanjutorialsDBDataSet();
+            MantasDBDataSet ds = new MantasDBDataSet();
             global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
             global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
             global::System.Xml.Schema.XmlSchemaAny any = new global::System.Xml.Schema.XmlSchemaAny();
@@ -561,7 +561,7 @@ namespace Wpf_ZooManager {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                PanjutorialsDBDataSet ds = new PanjutorialsDBDataSet();
+                MantasDBDataSet ds = new MantasDBDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -839,7 +839,7 @@ namespace Wpf_ZooManager {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                PanjutorialsDBDataSet ds = new PanjutorialsDBDataSet();
+                MantasDBDataSet ds = new MantasDBDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1131,7 +1131,7 @@ namespace Wpf_ZooManager {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                PanjutorialsDBDataSet ds = new PanjutorialsDBDataSet();
+                MantasDBDataSet ds = new MantasDBDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1415,7 +1415,7 @@ namespace Wpf_ZooManager {
         }
     }
 }
-namespace Wpf_ZooManager.PanjutorialsDBDataSetTableAdapters {
+namespace WPF_ZooManager.MantasDBDataSetTableAdapters {
     
     
     /// <summary>
@@ -1571,7 +1571,7 @@ namespace Wpf_ZooManager.PanjutorialsDBDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Wpf_ZooManager.Properties.Settings.Default.PanjutorialsDBConnectionString;
+            this._connection.ConnectionString = global::WPF_ZooManager.Properties.Settings.Default.MantasDBConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1588,7 +1588,7 @@ namespace Wpf_ZooManager.PanjutorialsDBDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(PanjutorialsDBDataSet.ZooDataTable dataTable) {
+        public virtual int Fill(MantasDBDataSet.ZooDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -1601,9 +1601,9 @@ namespace Wpf_ZooManager.PanjutorialsDBDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual PanjutorialsDBDataSet.ZooDataTable GetData() {
+        public virtual MantasDBDataSet.ZooDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            PanjutorialsDBDataSet.ZooDataTable dataTable = new PanjutorialsDBDataSet.ZooDataTable();
+            MantasDBDataSet.ZooDataTable dataTable = new MantasDBDataSet.ZooDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -1611,14 +1611,14 @@ namespace Wpf_ZooManager.PanjutorialsDBDataSetTableAdapters {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(PanjutorialsDBDataSet.ZooDataTable dataTable) {
+        public virtual int Update(MantasDBDataSet.ZooDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(PanjutorialsDBDataSet dataSet) {
+        public virtual int Update(MantasDBDataSet dataSet) {
             return this.Adapter.Update(dataSet, "Zoo");
         }
         
@@ -1866,21 +1866,21 @@ namespace Wpf_ZooManager.PanjutorialsDBDataSetTableAdapters {
                 "ame))";
             this._adapter.DeleteCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_Id", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Id", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_Name", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Name", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_Name", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Name", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
             this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[Animal] ([Name]) VALUES (@Name);\r\nSELECT Id, Name FROM Animal " +
                 "WHERE (Id = SCOPE_IDENTITY())";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Name", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Name", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Name", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Name", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.UpdateCommand.Connection = this.Connection;
             this._adapter.UpdateCommand.CommandText = "UPDATE [dbo].[Animal] SET [Name] = @Name WHERE (([Id] = @Original_Id) AND ([Name]" +
                 " = @Original_Name));\r\nSELECT Id, Name FROM Animal WHERE (Id = @Id)";
             this._adapter.UpdateCommand.CommandType = global::System.Data.CommandType.Text;
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Name", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Name", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Name", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Name", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_Id", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Id", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_Name", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Name", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_Name", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Name", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Id", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 0, 0, "Id", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
         
@@ -1888,7 +1888,7 @@ namespace Wpf_ZooManager.PanjutorialsDBDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Wpf_ZooManager.Properties.Settings.Default.PanjutorialsDBConnectionString;
+            this._connection.ConnectionString = global::WPF_ZooManager.Properties.Settings.Default.MantasDBConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1905,7 +1905,7 @@ namespace Wpf_ZooManager.PanjutorialsDBDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(PanjutorialsDBDataSet.AnimalDataTable dataTable) {
+        public virtual int Fill(MantasDBDataSet.AnimalDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -1918,9 +1918,9 @@ namespace Wpf_ZooManager.PanjutorialsDBDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual PanjutorialsDBDataSet.AnimalDataTable GetData() {
+        public virtual MantasDBDataSet.AnimalDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            PanjutorialsDBDataSet.AnimalDataTable dataTable = new PanjutorialsDBDataSet.AnimalDataTable();
+            MantasDBDataSet.AnimalDataTable dataTable = new MantasDBDataSet.AnimalDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -1928,14 +1928,14 @@ namespace Wpf_ZooManager.PanjutorialsDBDataSetTableAdapters {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(PanjutorialsDBDataSet.AnimalDataTable dataTable) {
+        public virtual int Update(MantasDBDataSet.AnimalDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(PanjutorialsDBDataSet dataSet) {
+        public virtual int Update(MantasDBDataSet dataSet) {
             return this.Adapter.Update(dataSet, "Animal");
         }
         
@@ -2211,7 +2211,7 @@ namespace Wpf_ZooManager.PanjutorialsDBDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Wpf_ZooManager.Properties.Settings.Default.PanjutorialsDBConnectionString;
+            this._connection.ConnectionString = global::WPF_ZooManager.Properties.Settings.Default.MantasDBConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2228,7 +2228,7 @@ namespace Wpf_ZooManager.PanjutorialsDBDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(PanjutorialsDBDataSet.ZooAnimalDataTable dataTable) {
+        public virtual int Fill(MantasDBDataSet.ZooAnimalDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -2241,9 +2241,9 @@ namespace Wpf_ZooManager.PanjutorialsDBDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual PanjutorialsDBDataSet.ZooAnimalDataTable GetData() {
+        public virtual MantasDBDataSet.ZooAnimalDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            PanjutorialsDBDataSet.ZooAnimalDataTable dataTable = new PanjutorialsDBDataSet.ZooAnimalDataTable();
+            MantasDBDataSet.ZooAnimalDataTable dataTable = new MantasDBDataSet.ZooAnimalDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -2251,14 +2251,14 @@ namespace Wpf_ZooManager.PanjutorialsDBDataSetTableAdapters {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(PanjutorialsDBDataSet.ZooAnimalDataTable dataTable) {
+        public virtual int Update(MantasDBDataSet.ZooAnimalDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(PanjutorialsDBDataSet dataSet) {
+        public virtual int Update(MantasDBDataSet dataSet) {
             return this.Adapter.Update(dataSet, "ZooAnimal");
         }
         
@@ -2497,7 +2497,7 @@ namespace Wpf_ZooManager.PanjutorialsDBDataSetTableAdapters {
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-        private int UpdateUpdatedRows(PanjutorialsDBDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateUpdatedRows(MantasDBDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
             if ((this._zooTableAdapter != null)) {
                 global::System.Data.DataRow[] updatedRows = dataSet.Zoo.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
@@ -2534,7 +2534,7 @@ namespace Wpf_ZooManager.PanjutorialsDBDataSetTableAdapters {
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-        private int UpdateInsertedRows(PanjutorialsDBDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateInsertedRows(MantasDBDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
             if ((this._zooTableAdapter != null)) {
                 global::System.Data.DataRow[] addedRows = dataSet.Zoo.Select(null, null, global::System.Data.DataViewRowState.Added);
@@ -2568,7 +2568,7 @@ namespace Wpf_ZooManager.PanjutorialsDBDataSetTableAdapters {
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-        private int UpdateDeletedRows(PanjutorialsDBDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
+        private int UpdateDeletedRows(MantasDBDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
             int result = 0;
             if ((this._zooAnimalTableAdapter != null)) {
                 global::System.Data.DataRow[] deletedRows = dataSet.ZooAnimal.Select(null, null, global::System.Data.DataViewRowState.Deleted);
@@ -2626,7 +2626,7 @@ namespace Wpf_ZooManager.PanjutorialsDBDataSetTableAdapters {
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-        public virtual int UpdateAll(PanjutorialsDBDataSet dataSet) {
+        public virtual int UpdateAll(MantasDBDataSet dataSet) {
             if ((dataSet == null)) {
                 throw new global::System.ArgumentNullException("dataSet");
             }

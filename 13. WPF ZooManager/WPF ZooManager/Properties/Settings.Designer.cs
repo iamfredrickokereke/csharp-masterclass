@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Wpf_ZooManager.Properties {
+namespace WPF_ZooManager.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -26,11 +26,11 @@ namespace Wpf_ZooManager.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-K67QJP2\\PANJUTORIALSSQL;Initial Catalog=PanjutorialsDB;Persis" +
-            "t Security Info=True;User ID=sa;Password=m1shumis;Pooling=False")]
-        public string PanjutorialsDBConnectionString {
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-K67QJP2\\MANTASSQL;Initial Catalog=MantasDB;Persist Security I" +
+            "nfo=True;User ID=sa;Password=m1shumis")]
+        public string MantasDBConnectionString {
             get {
-                return ((string)(this["PanjutorialsDBConnectionString"]));
+                return ((string)(this["MantasDBConnectionString"]));
             }
         }
     }

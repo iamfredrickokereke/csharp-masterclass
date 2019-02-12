@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A6EC450C-C564-42F0-A73D-AB70C0977766}</ProjectGuid>
+    <ProjectGuid>{B179EC68-63E6-41E0-9050-D6D51E054009}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Wpf_ZooManager</RootNamespace>
-    <AssemblyName>Wpf ZooManager</AssemblyName>
+    <RootNamespace>WPF_ZooManager</RootNamespace>
+    <AssemblyName>WPF ZooManager</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -70,10 +70,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PanjutorialsDBDataSet.Designer.cs">
+    <Compile Include="MantasDBDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>PanjutorialsDBDataSet.xsd</DependentUpon>
+      <DependentUpon>MantasDBDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -92,16 +92,16 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="PanjutorialsDBDataSet.xsc">
-      <DependentUpon>PanjutorialsDBDataSet.xsd</DependentUpon>
+    <None Include="MantasDBDataSet.xsc">
+      <DependentUpon>MantasDBDataSet.xsd</DependentUpon>
     </None>
-    <None Include="PanjutorialsDBDataSet.xsd">
+    <None Include="MantasDBDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>PanjutorialsDBDataSet.Designer.cs</LastGenOutput>
+      <LastGenOutput>MantasDBDataSet.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="PanjutorialsDBDataSet.xss">
-      <DependentUpon>PanjutorialsDBDataSet.xsd</DependentUpon>
+    <None Include="MantasDBDataSet.xss">
+      <DependentUpon>MantasDBDataSet.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

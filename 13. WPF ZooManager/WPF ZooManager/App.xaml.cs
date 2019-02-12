@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Wpf_ZooManager
+namespace WPF_ZooManager
 {
     /// <summary>
     /// Interaction logic for App.xaml
